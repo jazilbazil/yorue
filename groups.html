@@ -4,36 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>People</title>
+    <title></title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <style>
     * {
   box-sizing: border-box;
 }
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
 
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}
 body {
   font-family: Arial;
   padding: 10px;
@@ -59,7 +37,29 @@ body {
   background-color: #82B068;
   color: #4b6b4b;
 }
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
 
 #topnav a {
   float: left;
@@ -100,8 +100,8 @@ img {
 </style>
 
 <div id="header">
-    <h1>People</h1>
-    <p>the emotional trauma setup
+    <h1></h1>
+    <p>
     </p>
   </div>
   
@@ -118,33 +118,34 @@ img {
   <div id="row">
     <div id="leftcolumn">
       <div id="card">
-        <h2>ingredients</h2>
+        <h2></h2>
         <div id="fakeimg" style="height:200px;">
 <ul>
-    <li> <a href="">Stryker</a></li>
-    <li> <a href="">Thyme</a> </li>
-    <li> <a href="">Shiva</a> </li>
-    <li> <a href="">Alad V</a> </li>
-    <li> <a href="">Bovine</a></li>
-    <li> <a href="">Finch</a></li>
-    <li> <a href="">Sea-Bunny</a></li>
+    <li> <a href=""></a>Cafe Crew</li>
+    <li> <a href=""></a>Arasaka</li>
+    <li> <a href=""></a>Militech</li>
+    <li> <a href=""></a>Alad V inc</li>
+    <li> <a href=""></a>Police</li>
+    <li> <a href=""></a></li>
+    <li> <a href=""></a></li>
 </ul>
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        } 
-      });
-    }
-    </script>
+
 <body>
 </body>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
 </html>
